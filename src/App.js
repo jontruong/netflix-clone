@@ -8,7 +8,6 @@ function App() {
     <div className="App">
 
     {/*NavBar*/}
-    {/*Banner*/}
     <Banner/>
       <Row title="Netflix Originals" isLargeRow fetchUrl={requests.fetchNetflixOriginals}></Row>
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} ></Row>
